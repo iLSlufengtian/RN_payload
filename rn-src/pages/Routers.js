@@ -16,7 +16,7 @@ import Network from '../utils/Network';
 const TabsView = require('./TabsView');
 // const LoginView = require('./login/LoginView');
 
-// const Events = require('./home/Events');
+const HomeList2 = require('./home/HomeList2');
 // const AbnormalList = require('./home/AbnormalList');
 // const AbnormalDetail = require('./home/AbnormalDetail');
 // const EnforceDetail = require('./enforce/EnforceDetail');
@@ -32,7 +32,7 @@ const TabsView = require('./TabsView');
 const RouteList = {
     'TabsView': TabsView,
     // 'LoginView': LoginView,
-    // 'Events': Events,
+    'HomeList2': HomeList2,
     // 'AbnormalList': AbnormalList,
     // 'AbnormalDetail': AbnormalDetail,
     // 'UploadRecord': UploadRecord,
